@@ -17,6 +17,7 @@ public class QuizManager : MonoBehaviour
     private int correctAnswerCount = 0;
     //questions data
     private List<Question> questions;
+    private int numberOfQuestions;
     //current question data
     private Question selectedQuetion = new Question();
     private int gameScore;
@@ -41,6 +42,7 @@ public class QuizManager : MonoBehaviour
         questions = new List<Question>();
         dataScriptable = quizDataList[categoryIndex];
         questions.AddRange(dataScriptable.questions);
+        numberOfQuestions = questions.Count;
         //select the question
         SelectQuestion();
         gameStatus = GameStatus.PLAYING;
@@ -97,8 +99,8 @@ public class QuizManager : MonoBehaviour
             //Yes, Ans is correct
             correctAnswerCount++;
             correct = true;
-            gameScore += 50;
-            quizGameUI.ScoreText.text = "Score:" + gameScore;
+            gameScore += 1;
+            quizGameUI.ScoreText.text = "Score:" + gameScore + "/" + numberOfQuestions;
         }
         else
         {

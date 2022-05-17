@@ -58,7 +58,7 @@ MonoBehaviour:
     - Human
     - Turtle
     correctAns: Human
-  - questionInfo: Slowest animal on the earth?
+  - questionInfo: Which is the slowest animal?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -67,5 +67,5 @@ MonoBehaviour:
     - Cheeta
     - Sloth
     - Leapord
-    - Tortois
+    - Tortoise
     correctAns: Sloth

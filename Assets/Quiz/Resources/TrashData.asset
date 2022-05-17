@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: TrashData
+  m_EditorClassIdentifier: 
+  categoryName: Trash vs. Recycle (click to begin)
+  questions:
+  - questionInfo: Should I bag my bottles and cans?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Yes. Grocery bags are great for this.
+    - No. Never put your recyclables in plastic bags.
+    - Only if your pickup day is Wednesday.
+    - Only if your pickup day is Tuesday.
+    correctAns: No. Never put your recyclables in plastic bags.
+  - questionInfo: Pizza boxes go in the ORANGE recyle bin.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - True.  (Uneaten crusts in trash)
+    - False.
+    - Only if your pickup day is Wednesday.
+    - It is best to throw them on the side of the road.
+    correctAns: False.
+  - questionInfo: It's best to put caps back on milk / beer bottles before placing
+      them in the blue bin.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - True.  Same as with lids for pasta sauce jars.
+    - False.
+    - It depends on how drunk you are.
+    - Only if it's Bud Light.
+    correctAns: False.
+  - questionInfo: Water bottles placed in BLUE bins get melted down and made into
+      water bottles again.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'True.  '
+    - False.
+    - It is better to compost them.
+    - Water? Like the stuff in the toilet?
+    correctAns: False.
+  - questionInfo: Which of the following is recyclable?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Broken Glass
+    - Alkaline Batteries
+    - 'Coffee Cups '
+    - None of these.
+    correctAns: None of these.
